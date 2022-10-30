@@ -12,7 +12,7 @@ const Body = ({ chooseTrack }) => {
   const [searchResults, setSearchResults] = useState([]);
   const [newReleases, setNewReleases] = useState([]);
   const { data: session } = useSession();
-  const { accessToken } = session.user;
+  const accessToken = session?.user?.accessToken;
 
   useEffect(() => {
     if (!accessToken) return;
