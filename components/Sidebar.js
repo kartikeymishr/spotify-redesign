@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <section
       className="fixed top-0 z-40 flex flex-col 
-      items-center bg-black w-[90px] h-screen space-y-8"
+      items-center bg-black w-[90px] h-screen space-y-8 pt-[16px]"
     >
       <Image
         src="https://rb.gy/xkacau"
